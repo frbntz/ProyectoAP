@@ -1,0 +1,10 @@
+.row{
+    padding: 1px ;
+}
+div{
+    background-color: black;
+    color: goldenrod;
+}
+
+/*para meter en la misma linea años y título del trabajo se puede usar
+la opción display: inline-block y demás*/
