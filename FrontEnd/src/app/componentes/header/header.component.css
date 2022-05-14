@@ -1,0 +1,9 @@
+div {
+    background-color: black;
+        }
+
+app-logo-ap{
+    width: 100%;
+    display: flex;
+    background-color: black;
+}

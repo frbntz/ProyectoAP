@@ -1,6 +1,6 @@
 .row{
     padding: 15px; 
-    background-image: url("../../../assets/heic1808a.jpg"); 
+    background-color: black;
 }
 
 h1{
@@ -17,6 +17,19 @@ p{
         width: 15%;
         border-radius: 100%;
         box-shadow: 1px 3px 2px pink;
+    }
+}
+
+
+
+@media (max-width: 575px){
+    #profilepic{
+        position: relative;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 1px 3px 2px grey;
+        top: 65px;
+        left: 37px
     }
 }
 
