@@ -17,6 +17,11 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { BannerComponent } from './componentes/banner/banner.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { from } from 'rxjs';
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './componentes/home/home.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,15 +35,17 @@ import { from } from 'rxjs';
     FooterComponent,
     EducacionComponent,
     BannerComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
-  ],
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
