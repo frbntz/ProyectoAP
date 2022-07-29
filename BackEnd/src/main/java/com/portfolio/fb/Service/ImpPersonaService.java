@@ -1,4 +1,3 @@
-
 package com.portfolio.fb.Service;
 
 import com.portfolio.fb.Entity.Persona;
@@ -10,8 +9,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ImpPersonaService implements IPersonaService {
-    @Autowired IPersonaRepository iPersonaRepository;
-    
+
+    @Autowired
+    IPersonaRepository iPersonaRepository;
+
     @Override
     public List<Persona> getPersona() {
         List<Persona> persona = iPersonaRepository.findAll();
@@ -20,7 +21,7 @@ public class ImpPersonaService implements IPersonaService {
 
     @Override
     public void savePersona(Persona persona) {
-      iPersonaRepository.save(persona);
+        iPersonaRepository.save(persona);
     }
 
     @Override
@@ -33,5 +34,5 @@ public class ImpPersonaService implements IPersonaService {
         Persona persona = iPersonaRepository.findById(id).orElse(null);
         return persona;
     }
-    
+
 }

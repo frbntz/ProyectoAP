@@ -1,10 +1,7 @@
-
 package com.portfolio.fb.Interface;
 
 import com.portfolio.fb.Entity.Persona;
 import java.util.List;
-
-
 
 public interface IPersonaService {
     //Traer una persona

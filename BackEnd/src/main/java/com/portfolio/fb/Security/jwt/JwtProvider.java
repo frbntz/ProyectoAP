@@ -29,14 +29,14 @@ public class JwtProvider {
         return Jwts.builder().setSubject(usuarioPrincipal.getUsername())
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(new Date()
-                        .getTime() + expiration * 1000))
-                .signWith(SignatureAlgorithm.HS512, secret.getBytes())
+                        .getTime()+expiration*1000))
+                .signWith(SignatureAlgorithm.HS512, secret)
                 .compact();
     }
 
     public String getNombreUsuarioFromToken(String token) {
         return Jwts.parser()
-                .setSigningKey(secret.getBytes())
+                .setSigningKey(secret)
                 .parseClaimsJws(token)
                 .getBody()
                 .getSubject();

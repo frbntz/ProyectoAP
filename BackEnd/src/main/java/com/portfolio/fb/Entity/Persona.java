@@ -1,4 +1,3 @@
-
 package com.portfolio.fb.Entity;
 
 import javax.persistence.Entity;

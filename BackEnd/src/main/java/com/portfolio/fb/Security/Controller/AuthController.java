@@ -8,7 +8,7 @@ import com.portfolio.fb.Security.Entity.Rol;
 import com.portfolio.fb.Security.Enums.RolNombre;
 import com.portfolio.fb.Security.Service.UsuarioService;
 import com.portfolio.fb.Security.jwt.JwtProvider;
-import com.portfolio.fb.Service.RolService;
+import com.portfolio.fb.Security.Service.RolService;
 import java.util.HashSet;
 import java.util.Set;
 import javax.validation.Valid;
