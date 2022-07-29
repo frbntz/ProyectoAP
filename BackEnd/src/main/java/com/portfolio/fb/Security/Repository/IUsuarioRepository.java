@@ -1,7 +1,7 @@
 
 package com.portfolio.fb.Security.Repository;
 
-import com.portfolio.fb.Entity.Usuario;
+import com.portfolio.fb.Security.Entity.Usuario;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

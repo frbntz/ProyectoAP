@@ -1,8 +1,8 @@
 
 package com.portfolio.fb.Security.Service;
 
-import com.portfolio.fb.Entity.Usuario;
-import com.portfolio.fb.Entity.UsuarioPrincipal;
+import com.portfolio.fb.Security.Entity.Usuario;
+import com.portfolio.fb.Security.Entity.UsuarioPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

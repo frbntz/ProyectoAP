@@ -1,7 +1,6 @@
 
-package com.portfolio.fb.Entity;
+package com.portfolio.fb.Security.Entity;
 
-import com.portfolio.fb.Security.Entity.Rol;
 import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Column;

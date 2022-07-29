@@ -1,7 +1,7 @@
 
 package com.portfolio.fb.Security.Service;
 
-import com.portfolio.fb.Entity.Usuario;
+import com.portfolio.fb.Security.Entity.Usuario;
 import com.portfolio.fb.Security.Repository.IUsuarioRepository;
 import java.util.Optional;
 import javax.transaction.Transactional;
