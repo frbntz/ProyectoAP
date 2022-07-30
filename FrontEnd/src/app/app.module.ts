@@ -19,6 +19,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { from } from 'rxjs';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './componentes/home/home.component';
+import { interceptorProvider } from './service/interceptor-service';
 
 
 
@@ -46,7 +47,9 @@ import { HomeComponent } from './componentes/home/home.component';
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
     ],
-  providers: [],
+  providers: [
+    interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
