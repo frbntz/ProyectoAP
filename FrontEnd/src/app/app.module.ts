@@ -16,10 +16,13 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { LoginComponent } from './componentes/login/login.component';
-import { from } from 'rxjs';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './componentes/home/home.component';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewEducacionComponent } from './componentes/educacion/new-educacion.component';
+import { EditEducacionComponent } from './componentes/educacion/edit-educacion.component';
+import { EditExperienciaComponent } from './componentes/experiencia/edit-experiencia.component';
+import { NewExperienciaComponent } from './componentes/experiencia/new-experiencia.component';
 
 
 
@@ -37,7 +40,11 @@ import { interceptorProvider } from './service/interceptor-service';
     EducacionComponent,
     BannerComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    NewEducacionComponent,
+    EditEducacionComponent,
+    EditExperienciaComponent,
+    NewExperienciaComponent
   ],
   imports: [
     BrowserModule,
